@@ -17,7 +17,9 @@ public class App {
     */
     //------------------------------------------------------------------
     //Implemente la funcion en este espacio
-    
+    public static float calcularConsumoGasolina(float kmRecorrido){
+        return ((kmRecorrido * 55) / 750);
+    }
 
     //------------------------------------------------------------------
 
